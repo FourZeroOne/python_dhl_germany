@@ -1,10 +1,13 @@
--r requirements.txt
+-e .
+
 pylint
 pre-commit
 pytest
 pytest-cov
-autopep8
-pyhamcrest
 black
 flake8
+boto3
+build
+
 python-decouple
+pyhamcrest
