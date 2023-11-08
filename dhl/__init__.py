@@ -288,7 +288,7 @@ class DHL:
         )
 
     def get_label_from_url(self, url):
-        response = requests.get(url)
+        response = requests.get(url, timeout=8)
         return base64.b64encode(response.content)
 
     def do_manifest(self, shipmentNumber=None):
