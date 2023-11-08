@@ -382,5 +382,5 @@ class DHL:
             )
         except Exception as ex:
             print("ERROR:", ex)
-            logger.error("could not create shipment", ex)
+            logger.exception(f"could not create shipment; {ex}")
             raise Exception("could not create shipment", ex)

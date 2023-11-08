@@ -19,7 +19,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "python_dhl_germany"
-version = "0.3.4.13"
+version = "0.3.4.14"
 authors = [{ name = "Johannes Eimer", email = "johannes.eimer@jep-dev.com" }]
 description = "Python Lib for DHL SOAP API (Germany)"
 readme = "README.md"
