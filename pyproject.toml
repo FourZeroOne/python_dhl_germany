@@ -19,7 +19,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "python_dhl_germany"
-version = "0.3.4.11"
+version = "0.3.4.12"
 authors = [{ name = "Johannes Eimer", email = "johannes.eimer@jep-dev.com" }]
 description = "Python Lib for DHL SOAP API (Germany)"
 readme = "README.md"
@@ -29,7 +29,7 @@ keywords = ["DHL", "Python"]
 dependencies = ["requests==2.31.0", "zeep==4.2.1"]
 
 [tool.hatch.build.targets.sdist]
-include = ["dhl"]
+include = ["dhl", "dhl/wsdl/3.4.0/*.wsdl"]
 
 [tool.hatch.build.targets.wheel]
 package = ["dhl"]
