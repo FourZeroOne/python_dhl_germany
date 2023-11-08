@@ -103,7 +103,7 @@ class DHL:
         return client
 
     def _get_weight_in_kg(self, value, unit="kg"):
-        if not unit in ["kg", "g", None]:
+        if unit not in ["kg", "g", None]:
             raise ValueError("unit accepts only 'kg' or 'g'")
         if unit == "kg" or unit is None:
             return value
