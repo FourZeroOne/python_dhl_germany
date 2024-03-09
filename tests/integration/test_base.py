@@ -450,7 +450,7 @@ class TestDHL:
                     "barcode": "dfc4754e",
                     "amount": 2,
                     "weight": 0.1,
-                    "required_shipment": True,
+                    "shipment_required": True,
                     "scanned": 2,
                     "price": 2.0,
                     "customs": {
@@ -597,7 +597,7 @@ class TestDHL:
                     "barcode": "dfc4754e",
                     "amount": 2,
                     "weight": 0.1,
-                    "required_shipment": True,
+                    "shipment_required": True,
                     "scanned": 2,
                     "price": 2.0,
                     "customs": {
